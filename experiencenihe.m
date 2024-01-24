@@ -50,4 +50,4 @@ title('figure 1')
 
 % plot(m,mnihe)
 
-mnihe_result=c(1)*(100.0015-meanx)^2+c(2)*(-0.0002-meany)^2+c(3)*(45.0006-meanz)^2+c(4)*(100.0015-meanx)+c(5)*(-0.0002-meany)+c(6)*(45.0006-meanz)+c(7)
+%mnihe_result=c(1)*(100.0015-meanx)^2+c(2)*(-0.0002-meany)^2+c(3)*(45.0006-meanz)^2+c(4)*(100.0015-meanx)+c(5)*(-0.0002-meany)+c(6)*(45.0006-meanz)+c(7)
