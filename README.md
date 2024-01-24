@@ -17,3 +17,6 @@ According to experience learning, the test parameters and corresponding results 
 
 #  Matlab program(experiencenihe.m)
 According to the theory of experience learning, the hit rate of each detection is calculated as experience. The probability distribution of the basketball-shooting machine can be fitted based on experience of multiple iterations. Then the accurate shooting parameters can be found from the probability distribution, so as to mitigate the impact of errors.
+
+# Data(gradient_descent.csv)
+The data set is the test results from an experiment trained using gradient descent(gradient_descent_eperience.py). After that, part of this set of data is used to perform experience learning fitting in matlab program.
