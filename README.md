@@ -8,8 +8,12 @@ xlwt 1.3.0
 matlab R2014a
 
 # Python program (gradient_descent_eperience.py)
-
 In this program, the virtual basketball-shooting machine model is first given. 
-D=√(（SS-100)^2+(HA^2)/(0.2^2 )+((PA-45)^2)/(0.2^2 ))	
+D=√((SS-100)^2+(HA^2)/(0.2^2 )+((PA-45)^2)/(0.2^2 ))	
 In order to simulate the random error and quantization error in practice, errors are superimposed to the three parameters of the virtual basketball-shooting machine in the program.
 This model is then detected using a conventional gradient descent algorithm. 
+It can be seen that traditional methods are difficult to find the optimal shooting parameters due to the errors.
+According to experience learning, the test parameters and corresponding results of each time are recorded and stored in the experience chain table.
+
+#  Matlab program(experiencenihe.m)
+According to the theory of experience learning, the hit rate of each detection is calculated as experience. The probability distribution of the basketball-shooting machine can be fitted based on experience of multiple iterations. Then the accurate shooting parameters can be found from the probability distribution, so as to mitigate the impact of errors.
