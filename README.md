@@ -11,3 +11,5 @@ matlab R2014a
 
 In this program, the virtual basketball-shooting machine model is first given. 
 D=√(（SS-100)^2+(HA^2)/(0.2^2 )+((PA-45)^2)/(0.2^2 ))	
+In order to simulate the random error and quantization error in practice, errors are superimposed to the three parameters of the virtual basketball-shooting machine in the program.
+This model is then detected using a conventional gradient descent algorithm. 
