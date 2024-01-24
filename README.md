@@ -1,5 +1,2 @@
-#Overview
-
-	Overview
-	This repository provides code and solutions for Experience Learning algorithms. These are meant to serve as a learning tool to complement the theoretical materials from
-	
+# The virtual basketball-shooting machine
+	This repository provides code and solutions for a virtual basketball-shooting machine which is an example of Experience Learning algorithms.
